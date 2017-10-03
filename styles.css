@@ -1,0 +1,35 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+form input[type=search] {
+    width: 20rem;
+}
+
+p.summary {
+    margin-top: 2rem;
+    color: #666;
+}
+
+h3 {
+    margin: 0;
+}	
+
+p {
+    margin: .25rem;
+}
+
+ol.results li {
+    margin-bottom: 1rem;
+}
+
+ol.pagination {
+    list-style-type: none;
+    text-align: center;
+}
+
+ol.pagination li {
+    display: inline;
+    margin-left: 1rem;
+    margin-right: 2rem;
+}

@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prototype/1.6.1/prototype.min.js"></script>
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+  <title>Search results for 'school'</title>
+
+
+ <style>
+    .ui-helper-hidden-accessible,
+    .ui-help-hidden { display: none; }
+
+    .ui-menu {
+      width: 400px;
+      background-color: white;
+      border: solid 2px black;
+      padding: .5rem;
+    }
+
+    .ui-menu, .ui-menu li {
+      list-style-type: none;
+      margin: 0;
+      cursor: pointer
+    }
+
+    .ui-menu li a:hover {
+      background-color: #ddd;
+      text-decoration: underline;
+    }
+
+    .ui-menu-item a, li.ui-autocomplete-category { display: block; padding: 2px; }
+    li.ui-autocomplete-category { background-color: #e6e6e6; font-weight: bold;}
+
+    .ui-state-focus {
+      background-color: #428bca;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+    <form>
+        <input type="hidden" name="collection" value="higher-education-meta">
+        <input required name="query" class="query" id="qry" title="Search query" type="search" autofocus value="school" accesskey="q">
+        <button type="submit" class="btn btn-primary">Search</button>
+    </form>
+
+    <p class="summary">1 - 10 of 6,523 search results for <strong>school</strong></p>
+
+    <ol class="results">
+        <li>
+            <h3><a href="#">Faculties and schools</a></h3>
+            <cite>sydney.edu.au/about-us/faculties-and-<strong>schools</strong>.html</cite>
+            <p>Faculties and <strong>schools</strong>. Leadership through excellence in teaching and research. We offer the widest range of academic programs of any university in Australia.</p>
+        </li>
+        <li>
+            <h3><a href="#">Home - Funnelback University</a></h3>
+            <cite>sydney.edu.au/home.html</cite>
+            <p>Australia's leading higher education and research University.</p>
+        </li>
+        <li>
+            <h3><a href="#">Library - Home Page</a></h3>
+            <cite>https://library.sydney.edu.au/</cite>
+            <p>Welcome to the University of Sydney Library, the largest academic library in the southern hemisphere, with a vast array of electronic resources and a print collection. It is composed of eleven libraries across eight campuses. Find what you need</p>
+        </li>
+        <li>
+            <h3><a href="#">Shanghai Winter <strong>School</strong> Noticeboard - Studying Law</a></h3>
+            <cite>https://sydney.edu.au/law/offshore/shanghai/index.shtml</cite>
+            <p>Sydney Law <strong>School</strong>. You are here: Shanghai Winter <strong>School</strong>. Offshore. pdf). ... Attendance at the Shanghai Winter <strong>School</strong> will not be considered a valid reason for the rescheduling of examinations.</p>
+        </li>
+        <li>
+            <h3><a href="#">Graduate Research <strong>School</strong></a></h3>
+            <cite>https://www.westernsydney.edu.au/graduate_research_<strong>school</strong>/grs</cite>
+            <p> Find out about the courses on offer through the Graduate Research <strong>school</strong>.</p>
+        </li>
+        <li>
+            <h3><a href="#">Policy DDS</a></h3>
+            <cite>https://www.westernsydney.edu.au/policy/policy_DDS</cite>
+            <p>Skip to content If you have problems accessing content on the Western Sydney University website, please contact the Western Sydney University Contact Service Centre on 1300 897 669. Governance. People. Students. Study. Services. Partners. Search.</p>
+        </li>
+        <li>
+            <h3><a href="#"><strong>School</strong> of Education and Social Work</a></h3>
+            <cite>https://sydney.edu.au/education_social_work/</cite>
+            <p>Phone: 61 2 9351 2222. Authorised by: Dean and Head of <strong>School</strong>,. The University of Sydney <strong>School</strong> of Education and Social Work.</p>
+        </li>
+        <li>
+            <h3><a href="#"><strong>Schools</strong>, Institutes and Research Centres</a></h3>
+            <cite>https://www.westernsydney.edu.au/about/<strong>schools</strong>_research_institutes</cite>
+            <p><strong>Schools</strong>.  . Within the University there are disciplines and specialisations but outside the University there are real challenges that cross over these distinctions. ... Urban Living and Society (opens in a new window). See the research projects</p>
+        </li>
+        <li>
+            <h3><a href="#">Working with <strong>Schools</strong></a></h3>
+            <cite>https://www.westernsydney.edu.au/<strong>schools</strong>engagement</cite>
+            <p>Western Sydney University is engaged in mutually beneficial activities and relationships with the <strong>schools</strong> across Greater Western Sydney and is regarded as their University. ... <strong>school</strong> sector and other key stakeholders. The <strong>schools</strong> engagement plans focus</p>
+        </li>
+        <li>
+            <h3><a href="#"><strong>School</strong> of Business</a></h3>
+            <cite>https://www.westernsydney.edu.au/sob/business</cite>
+            <p>Each year, the <strong>School</strong> of Business recognises and rewards students who have achieved outstanding results in their studies. ... The <strong>School</strong> of Business seeks active engagement with business, government and industry bodies in the Western Sydney region, to</p>
+        </li>
+    </ol>
+
+    <ol class="pagination">
+        <li><a href="#">Previous</a></li>
+        <li><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">5</a></li>
+        <li><a href="#">Next</a></li>
+    </ol>
+
+
+
+<script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+
+<script src="http://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+
+<script src="http://stage-15-10-search.clients.funnelback.com/s/resources-global/js/jquery.funnelback-completion.js"></script>
+
+<script src="http://cdnjs.cloudflare.com/ajax/libs/typeahead.js/0.11.1/typeahead.bundle.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.js"></script>
+
+<script src="http://stage-15-10-search.clients.funnelback.com/s/resources/higher-education-meta/_default/js/typeahead.fb.js"></script>
+
+  <script id="auto-completion-courses" type="text/x-handlebar-template">
+    <div>
+      <h6>{{extra.disp.title}} <small class="text-muted">{{extra.disp.code}}</small></h6>
+      <div class="details">
+        <div>{{extra.disp.department}}</div>
+        <div class="text-muted">{{extra.disp.level}}</div>
+      </div>
+    </div>
+  </script>
+  <script id="auto-completion-people" type="text/x-handlebar-template">
+    <div class="media">
+      {{#if extra.disp.image}}
+        <img class="d-flex mr-3 rounded-circle" src="{{extra.disp.image}}" alt="{{extra.disp.title}}" />
+      {{/if}}
+      <div class="media-body">
+        <h6>{{extra.disp.title}}</h6>
+        <div>{{extra.disp.position}}</div>
+        <div class="details text-muted">
+          {{#if extra.disp.department}}<div><small><span class="fa fa-university text-muted" aria-hidden="true"></span> {{extra.disp.department}}</small></div>{{/if}}
+          {{#if extra.disp.phone}}<div><small><span class="fa fa-phone text-muted" aria-hidden="true"></span> {{extra.disp.phone}}</small></div>{{/if}}
+          {{#if extra.disp.email}}<div><small><span class="fa fa-envelope-o text-muted" aria-hidden="true"></span> {{extra.disp.email}}</small></div>{{/if}}
+        </div>
+      </div>
+    </div>
+  </script>
+
+<script>
+  $(document).ready( function() {
+
+    $('[data-toggle=tooltip]').tooltip({'html': true});
+
+    // Query completion setup.
+    $("input.query").fbcompletion({
+      'enabled'    : 'enabled',
+      'standardCompletionEnabled': true,
+      'collection' : 'higher-education-meta',
+      'program'    : 'http://stage-15-10-search.clients.funnelback.com/s/suggest.json',
+      'format'     : 'extended',
+      'alpha'      : '0.5',
+      'show'       : '10',
+      'sort'       : '0',
+      'length'     : '3',
+      'delay'      : '0',
+      'profile'    : 'auto-completion',
+      // 'query'      : 'collection=lmu-web',
+      //Search based completion
+      'searchBasedCompletionEnabled': true,
+      'searchBasedCompletionProgram': '../s/search.json',
+    });
+
+    // Faceted Navigation more/less links
+    var displayedCategories = 8;
+
+    $('div.facet ul').each( function() {
+        $(this).children('li:gt('+(displayedCategories-1)+')').hide();
+    });
+
+    $('.search-toggle-more-categories').each( function() {
+      var nbCategories = $(this).parent().parent().find('li').size();
+      if ( nbCategories <= displayedCategories ) {
+        $(this).hide();
+      } else {
+        $(this).css('display', 'block');
+        $(this).click( function() {
+          if ($(this).attr('data-state') === 'less') {
+            $(this).attr('data-state', 'more');
+            $(this).parent().parent().find('li:gt('+(displayedCategories-1)+')').hide();
+            $(this).find('span').text($(this).attr('data-more'));
+          } else {
+            $(this).attr('data-state', 'less');
+            $(this).parent().parent().find('li').css('display', 'block');
+            $(this).find('span').text($(this).attr('data-less'));
+          }
+        });
+      }
+    });
+
+    $('.search-geolocation').click( function() {
+      try {
+        navigator.geolocation.getCurrentPosition( function(position) {
+          // Success
+          var latitude  = Math.ceil(position.coords.latitude*10000) / 10000;
+          var longitude = Math.ceil(position.coords.longitude*10000) / 10000;
+          var origin = latitude+','+longitude;
+          $('#origin').val(origin);
+        }, function (error) {
+          // Error
+        }, { enableHighAccuracy: true });
+      } catch (e) {
+        alert('Your web browser doesn\'t support this feature');
+      }
+    });
+  });
+</script>
+
+    <script src="http://stage-15-10-search.clients.funnelback.com/s/resources-global/js/funnelback-session.js"></script>
+
+</body>
+</html>
